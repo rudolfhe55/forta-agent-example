@@ -18,6 +18,10 @@ Describe each of the type of alerts fired by this agent
   - Severity is always set to "medium" (mention any conditions where it could be something else)
   - Type is always set to "suspicious" (mention any conditions where it could be something else)
   - Mention any other type of metadata fields included with this alert
+- FORTA-2
+  - Fired when a transaction gas price greater than 10000000000 gwei
+  - Severity is "low"
+  - Type is "info"
 
 ## Test Data
 
